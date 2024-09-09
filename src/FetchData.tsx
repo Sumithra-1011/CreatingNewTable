@@ -14,7 +14,7 @@ interface DataType {
 
 const columns: TableColumnsType<DataType> = [
   {
-    title: 'ticker',
+    title: 'Ticker',
     dataIndex: 'ticker',
     sorter: (a, b) => a.ticker.localeCompare(b.ticker), // Sorting by ticker
     width: '30%',
